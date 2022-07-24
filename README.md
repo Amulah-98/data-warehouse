@@ -1,5 +1,8 @@
 # data-warehouse
 Scalable data warehouse that will host vehicle trajectory data extracted by analysing footage taken by swarm drones and static roadside cameras
+
+
+
 ![Flow_Diagram](https://user-images.githubusercontent.com/55177259/180666757-6a75971c-4545-49fc-a7a4-930f049fd11f.png)
 
 
@@ -23,5 +26,3 @@ Transforms table using sql files and automates using airflow
 * [dbt](https://www.getdbt.com/)
 * [Redash](https://redash.io/)
 
-# License
-[MIT](https://github.com/Amulah-98/Data-Warehouse-using-MYSQL)

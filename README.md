@@ -12,7 +12,7 @@ Scalable data warehouse that will host vehicle trajectory data extracted by anal
 ELT pipeline builder
 
 1. `create_tables`
-	* create tables using MYSQL and automates using airflow
+	* create tables using Postgres and automates using airflow
 2. `load_tables`
 	* Load raw data from CSV Dataframe to  staging tables and automates using airflow
 
@@ -21,7 +21,7 @@ Transforms table using sql files and automates using airflow
 
 ## Built With
 
-* [MYSQL](https://www.mysql.com/)
+* [MYSQL](https://www.postgres.com/)
 * [Apache Airflow](https://airflow.apache.org/)
 * [dbt](https://www.getdbt.com/)
 * [Redash](https://redash.io/)

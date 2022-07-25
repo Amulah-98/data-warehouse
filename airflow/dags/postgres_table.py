@@ -68,7 +68,7 @@ conn.commit()
 conn = pg_connect(
  host='localhost',
  user='postgres', # This is a default value. It may be your username.
- database=pNEUMA,
+ database=pNEUMA)
  # password='<password>', # By default, the password is empty. You can choose to enforce a password.
  # port='5432', # This is a default value and can be omitted
 

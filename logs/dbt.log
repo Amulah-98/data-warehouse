@@ -25,3 +25,37 @@ Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
 Happy modeling!
 
 15:15:27.853033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002350D4E0280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002350D4E0250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002350D4E0340>]}
+
+
+============================== 2022-07-25 09:11:05.013269 | 40785184-9186-439c-9049-082df7dc581b ==============================
+09:11:05.013269 [info ] [MainThread]: Running with dbt=1.1.1
+09:11:05.039113 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\user\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+09:11:05.040115 [debug] [MainThread]: Tracking: tracking
+09:11:05.137481 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B5FC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B62F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B6080>]}
+09:40:28.804580 [info ] [MainThread]: A project called data_warehouse already exists here.
+09:40:28.833801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B6920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B6A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014BC85B5FC0>]}
+
+
+============================== 2022-07-25 09:41:17.893897 | 5c363e7c-c157-48d2-982e-a805aa5b8ae5 ==============================
+09:41:17.893897 [info ] [MainThread]: Running with dbt=1.1.1
+09:41:17.896895 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': 'C:\\Users\\user\\.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+09:41:17.897910 [debug] [MainThread]: Tracking: tracking
+09:41:18.040895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF18DA5DB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF18DA63E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF18DA43D0>]}
+09:56:18.378718 [debug] [MainThread]: Starter project path: C:\Python310\lib\site-packages\dbt\include\starter_project
+09:56:24.119478 [info ] [MainThread]: 
+Your new dbt project "dbt1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+09:56:24.124479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF1335FBE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF18DA6770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EF18DA6B60>]}

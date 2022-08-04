@@ -3,7 +3,9 @@ Scalable data warehouse that will host vehicle trajectory data extracted by anal
 
 
 
-![Flow_Diagram](https://user-images.githubusercontent.com/55177259/180666757-6a75971c-4545-49fc-a7a4-930f049fd11f.png)
+
+![image](https://user-images.githubusercontent.com/55177259/182839099-89cce78e-77c0-4f61-96da-47a17a03f876.png)
+
 
 
 

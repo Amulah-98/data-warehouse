@@ -26,3 +26,87 @@ Transforms table using sql files and automates using airflow
 * [dbt](https://www.getdbt.com/)
 * [Redash](https://redash.io/)
 
+
+
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+
+</details>
+
+
+### Built With
+
+Tech Stack used in this project
+
+-   [PostgreSQL](https://dev.PostgreSQL.com/doc/)
+-   [Apache Airflow](https://airflow.apache.org/docs/apache-airflow/stable/)
+-   [dbt](https://docs.getdbt.com/)
+-   [Redash](https://redash.io/help/)
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have docker installed on local machine.
+
+-   Docker
+-   Docker Compose
+
+### Installation
+
+1. Clone the repo
+    ```sh
+    git clone https://github.com/Amulah-98/data-warehouse.git
+    ```
+2. Navigate to the folder
+
+    ```sh
+    cd traffic-flow-ELT
+    ```
+
+3. Build an airflow image
+
+    ```sh
+    docker build . --tag extending_airflow:latest
+    ```
+
+4. Run the following command once for first time initialization
+
+    ```sh
+     docker-compose up airflow-init
+    ```
+
+5. Run
+    ```sh
+     docker-compose up
+    ```
+6. Open Airflow web browser
+    ```JS
+    Navigate to `http://localhost:8000/` on the browser
+    activate and trigger load_dag
+    activate and trigger transform_dag
+    ```
+
+
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## Acknowledgements
+
+-   [10 Academy](https://www.10academy.org/)
